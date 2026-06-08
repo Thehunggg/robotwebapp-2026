@@ -42,8 +42,8 @@ app.post("/api/messages", (req, res) => {
   messages.push(newMessage);
   res.json(newMessage);
 });
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3008, () => {
   console.log(
-    `サーバが起動しました： http://localhost:${process.env.PORT || 3000}`,
+    `サーバが起動しました： http://localhost:${process.env.PORT || 3008}`,
   );
 });
